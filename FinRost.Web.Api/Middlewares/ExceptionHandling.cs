@@ -8,8 +8,8 @@ namespace FinRost.Web.Api.Middlewares
 {
     public class ExceptionHandling
     {
-        static readonly ITelegramBotClient bot = new TelegramBotClient("2114961858:AAHXNoeWSw4nMeVJz9ad44LjWt8a5i3RXgY");
-        static readonly long chatId = 652999971;
+        static readonly ITelegramBotClient bot = new TelegramBotClient("X");
+        static readonly long chatId = X;
 
         private readonly RequestDelegate _next;
         private readonly ILogger<ExceptionHandling> _logger;
